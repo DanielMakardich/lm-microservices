@@ -1,5 +1,8 @@
 language: java
 
+install: true
+script: mvn install
+
 branches:
   only:
     -project-service
